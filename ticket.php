@@ -10,7 +10,7 @@
     # Encabezado y datos de la empresa #
     $pdf->SetFont('Arial','B',10);
     $pdf->SetTextColor(0,0,0);
-    $pdf->MultiCell(0,5,iconv("UTF-8", "ISO-8859-1",strtoupper("Nombre de empresa")),0,'C',false);
+    $pdf->MultiCell(0,5,iconv("UTF-8", "ISO-8859-1",strtoupper("Apple Eplehuset")),0,'C',false);
     $pdf->SetFont('Arial','',9);
     $pdf->MultiCell(0,5,iconv("UTF-8", "ISO-8859-1","RUC: 0000000000"),0,'C',false);
     $pdf->MultiCell(0,5,iconv("UTF-8", "ISO-8859-1","Direccion San Salvador, El Salvador"),0,'C',false);
